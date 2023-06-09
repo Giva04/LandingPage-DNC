@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    font-family:"Inter"
+}
+
+.principal {
+    
+    background-image: url("./assets/imagem/fundoHeader.png");
+    max-width: 100%;
+    height: 560px;
+    gap: 1px;    
+    
+}
+
+#logo {
+    width: 125px;
+    height: 66px;
+    margin-top: 52px;
+    margin-left: 56px;
+}
+
+#tituloSuperior {
+    color: #fff;
+    margin-top: 45px;
+    margin-left: 150px;
+    /* margin-top: -220px */
+}
+#textoParagrafo{
+    margin-top: 30px;
+    margin-left:150px;
+    color:#fff;
+}
+
