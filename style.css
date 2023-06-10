@@ -7,8 +7,7 @@
     
     background-image: url("./assets/imagem/fundoHeader.png");
     max-width: 100%;
-    height: 560px;
-    
+    height: 500px;    
 }
 
 #logo {
@@ -24,6 +23,7 @@
     margin-left: 150px;
     /* margin-top: -220px */
 }
+
 #textoParagrafo{
     margin-top: 30px;
     margin-left:150px;
@@ -36,8 +36,7 @@
     height:170px;
     display:grid;
     grid-auto-flow:column;
-    columns:auto;    
-    
+    columns:auto;       
 }
 
 #icone{
@@ -51,4 +50,27 @@ h3{
     align-items: center;
     margin: 40px 40px 50px 10px
 }
+
+#secaoVideo{
+    display:grid;
+    grid-auto-flow:column;
+    columns:auto;
+}
+
+#textoInformativo{
+    display:flex;
+    align-items:center;
+    margin-left:50px;
+}
+
+#tituloVideo {
+    color:rgba(36, 123, 160, 1);
+    margin: 50px;
+}
+
+
+#video{
+    margin: 50px 25px 50px 100px;
+}
+
 
