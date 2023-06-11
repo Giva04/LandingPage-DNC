@@ -15,6 +15,7 @@
     height: 66px;
     margin-top: 52px;
     margin-left: 56px;
+    cursor: pointer;
 }
 
 #tituloSuperior {
@@ -95,11 +96,17 @@ h3{
 #seta-esq{
     display:none;
 }
-#leonardo{
+#Bruna{
     display:none;
 }
 
-.seta{
+.seta {
     margin-top: 70px;
+    cursor: pointer;
+}
+
+.seta:hover {
+    transform: translateY(-7px);
+    transform: translateY(0,5sec);
 }
 
