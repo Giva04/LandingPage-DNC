@@ -92,9 +92,9 @@ h3{
     margin-right: 10px;
 }
         /* diplay none esconde os itens que não queremos que aparecem */
-/* #seta-esq{
+#seta-esq{
     display:none;
-} */
+}
 #leonardo{
     display:none;
 }
