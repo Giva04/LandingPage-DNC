@@ -70,11 +70,16 @@
         <h1 id="tituloo-formulario">
             Comece agora mesmo e dê o próximo passo da sua carreira
         </h1>
-        <form>
-            <input type="text" placeholder="Digitel Seu Nome:"><br>
-            <input type="email" placeholder="Digite seu E-mail:"><br>
-            <input type="text" placeholder="Telefone:( ) 000000000"><br>
-            <button >
+        <!-- para termos acesso ao formulario usamos o Sheet Monkey (action+link) method "Post", required para os elementos que serão armazenados -->
+        <form action="https://api.sheetmonkey.io/form/pJP9wTLDiURFeqzvRjAbaQ" method="post">
+            <input type="text" placeholder="Digitel Seu Nome:" name="Name" required><br>
+            <input type="email" placeholder="Digite seu E-mail:" name="Email" required><br>
+            <input type="text" placeholder="Telefone:( ) 000000000" name="Phone"><br>
+            <!-- input hidden fica escontido ele é responsavel pela informaçao de quando foi criado o formulario -->
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+
+            <!-- para direcionar o cadastrado para a pagina do cliente , basta colar o link da pagina no sheetmonkey -->
+            <button type="submit" value="Sign Up">
                 Acesse a ementa grátis
             </button>
         </form>
